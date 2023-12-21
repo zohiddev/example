@@ -1,0 +1,29 @@
+.header{
+    padding: 16px 0;
+    position: relative;
+
+    &-row{
+        @include flex(center, space-between);
+    }
+
+    &-logo{
+        font-size: 32px;
+        font-family: sans-serif;
+
+        @include media(1200){
+            color: #fff;
+        }
+    }
+
+    &-button{
+        padding: 9px 18px;
+        background-color: transparent;
+        border: 1px solid $black-color;
+        border-radius: 4px;
+
+        @include media(1200){
+            color: #fff;
+            border-color: #fff;
+        }
+    }
+}
