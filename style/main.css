@@ -31,20 +31,20 @@ a {
 }
 @media screen and (max-width: 1200px) {
   .wrapper {
-    background-color: #121212;
+    background-color: rgba(219, 40, 40, 0.856);
   }
 }
 
 .box {
   width: 200px;
   height: 200px;
-  background-color: #121212;
+  background-color: rgba(219, 40, 40, 0.856);
   border-radius: 8px;
   margin: 24px;
 }
 @media screen and (max-width: 1200px) {
   .box {
-    background-color: #a4a4a4;
+    background-color: rgba(14, 156, 14, 0.848);
   }
 }
 
@@ -69,7 +69,7 @@ a {
 .header-button {
   padding: 9px 18px;
   background-color: transparent;
-  border: 1px solid #121212;
+  border: 1px solid rgba(219, 40, 40, 0.856);
   border-radius: 4px;
 }
 @media screen and (max-width: 1200px) {
